@@ -43,9 +43,9 @@ sudo /usr/local/bin/canfar_batch_prepare
 pip install natsort
 
 #Add CRDS and MIRAGE paths to .bashrc config file
-echo 'export CRDS_PATH=/mnt/jwstdata/crds_cache' >> ~/.bashrc
+echo 'export CRDS_PATH=/mnt/scratch/jwstdata/crds_cache' >> ~/.bashrc
 echo 'export CRDS_SERVER_URL=https://jwst-crds.stsci.edu' >> ~/.bashrc
-echo 'export MIRAGE_DATA=/mnt/jwstdata/miragereffiles/mirage_data' >> ~/.bashrc
+echo 'export MIRAGE_DATA=/mnt/scratch/jwstdata/miragereffiles/mirage_data' >> ~/.bashrc
 echo 'conda activate jwstdp' >> ~/.bashrc
 source ~/.bashrc
 which conda
